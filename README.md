@@ -1,5 +1,5 @@
 # intel_Unnati_MIT
-This project is a business contract classification tool designed to extract text from PDF files, compare clauses within the documents, classify the clauses and generate a report highlighting the differences. It uses `pdfplumber` for text extraction and `difflib` for comparing text. It uses `LSTM model` of Keras to classify and predict the type of clause. The front-end is done in `React` and the back-end in `Flask`.
+This project is a business contract classification tool designed to extract text from PDF files, compare clauses within the documents, classify the clauses, and generate a report highlighting the differences. It uses `pdfplumber` for text extraction and `difflib` for comparing text. The classification and prediction of clause types are done using a `BERT`-based model implemented with PyTorch. The front-end is developed in `React`, and the back-end is powered by `Flask`.
 
 ## Features
 
