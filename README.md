@@ -1,21 +1,6 @@
 # intel_Unnati_MIT
 This project is a business contract classification tool designed to extract text from PDF files, compare clauses within the documents, classify the clauses and generate a report highlighting the differences. It uses `pdfplumber` for text extraction and `difflib` for comparing text. It uses `LSTM model` of Keras to classify and predict the type of clause. The front-end is done in `React` and the back-end in `Flask`.
 
-## Table of Contents
-
-- [PDF Clause Comparison Tool](#pdf-clause-comparison-tool)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Extracting Text from PDFs](#extracting-text-from-pdfs)
-    - [Loading and Parsing Clauses](#loading-and-parsing-clauses)
-    - [Comparing Clauses](#comparing-clauses)
-    - [Generating the Report](#generating-the-report)
-  - [Project Structure](#project-structure)
-  - [Contributing](#contributing)
-  - [License](#license)
-
 ## Features
 
 - Extract text from PDF files uploaded.
@@ -30,6 +15,7 @@ This project is a business contract classification tool designed to extract text
    ```sh
    git clone https://github.com/saisudan2003/intel_Unnati_MIT.git
    cd intel_Unnati_MIT
+   pip install -r requirements.txt
    ```
 
 2. To run the front-end:
@@ -57,4 +43,28 @@ https://drive.google.com/drive/folders/1LHpsZnK7DVCcpGwTVArYcSTKWIYY0jQj?usp=sha
 2. The 'processed' folder contains the raw PDFs converted to textual format by our parser.
 3. The 'annotated' folder contains the processed texts annotated into clauses through classification.
 
-## 
+## Project Structure
+
+intel_Unnati_MIT/
+├── input_folder/
+│   ├── example/
+│   │   └── example.pdf `The sample PDF uploaded by the user`
+│   │   └── example.txt `The sample after preprocessing and parsing into textual format (Appears after running pdf-parser)`
+│   ├── template/
+│   │   └── template.pdf `The template PDF uploaded by the user`
+│   │   └── template.txt `The template after preprocessing and parsing into textual format(Appears after running pdf-parser)`
+├── src/
+│   ├── classification/
+│   │   └── annotate_files_v3.py `Annotates the processed texts into clauses of partciular type using the model`
+│   │   └── compare_clauses.py `Compares the clauses in the processed sample document and tempate document using regex`
+│   │   └── preprocess.py `Preprocesses the PDFs to make it in a form readable by the model`
+│   │   └── train_model_v2.py `Trains the machine learning model using BERT`
+│   │   └── highlight_differences.py `Highlights the deviations detected in the sample PDF and creates a new PDF`
+│   ├── parsing/
+│   │   └── pdf-parser.py `Parses the PDFs uploaded into textual format`
+├── reports/
+│   └── inconsistencies_report.txt `Deviations detected in a textual report format(Appears after running compare_clauses)`
+├── main.py
+├── requirements.txt
+└── README.md
+
