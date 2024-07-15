@@ -68,3 +68,6 @@ intel_Unnati_MIT/
 ├── requirements.txt
 └── README.md
 
+## Conclusion
+
+This model works fine with most templates and sample PDF documents. Unfortunately, due to limited availability of training dataset for our machine learning model, it is not very accurate. Hence we are using Regex to extract clauses and compare them. We hope to improve upon this in our next iteration. 
