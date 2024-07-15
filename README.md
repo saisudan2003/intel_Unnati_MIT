@@ -71,3 +71,8 @@ intel_Unnati_MIT/
 ## Conclusion
 
 This model works fine with most templates and sample PDF documents. Unfortunately, due to limited availability of training dataset for our machine learning model, it is not very accurate. Hence we are using Regex to extract clauses and compare them. We hope to improve upon this in our next iteration. 
+
+## PPT
+
+Attached below is a powerpoint presentation of our project.
+https://learnermanipal-my.sharepoint.com/:p:/r/personal/navneeth_santhosh_learner_manipal_edu/_layouts/15/Doc.aspx?sourcedoc=%7B723F1824-6FAE-4C36-9880-8D2F5004C013%7D&file=Intel%20Unnati%20_%20Idea%20Submission%20PPT.pptx&action=edit&mobileredirect=true
