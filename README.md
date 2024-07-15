@@ -68,6 +68,14 @@ intel_Unnati_MIT/
 ├── requirements.txt
 └── README.md
 
+## Sample data used
+
+Input template pdf:
+https://drive.google.com/file/d/1IG9przvvuzbQ3u5XCJTHWGzlre1auWxE/view
+
+Input sample pdf:
+https://drive.google.com/file/d/1udbQcRVp_Pwku-3tZcfW1HDjgHjdmt6s/view
+
 ## Conclusion
 
 This model works fine with most templates and sample PDF documents. Unfortunately, due to limited availability of training dataset for our machine learning model, it is not very accurate. Hence we are using Regex to extract clauses and compare them. We hope to improve upon this in our next iteration. 
