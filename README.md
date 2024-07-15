@@ -29,7 +29,7 @@ This project is a business contract classification tool designed to extract text
    python app.py
    ```
 
-## Video Link
+## Project Demo - Video Link
 
 The following is a video link showing the working of our solution.
 https://drive.google.com/file/d/1Jk2WTyZikz67j6IhInnmo3tsekZYTA0s/view?usp=sharing
@@ -68,7 +68,7 @@ intel_Unnati_MIT/
 ├── requirements.txt
 └── README.md
 
-## Sample data used
+## Sample data used in the Project Demo Video
 
 Input template pdf:
 https://drive.google.com/file/d/1IG9przvvuzbQ3u5XCJTHWGzlre1auWxE/view
