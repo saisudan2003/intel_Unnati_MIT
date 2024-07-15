@@ -75,4 +75,4 @@ This model works fine with most templates and sample PDF documents. Unfortunatel
 ## PPT
 
 Attached below is a powerpoint presentation of our project.
-https://learnermanipal-my.sharepoint.com/:p:/r/personal/navneeth_santhosh_learner_manipal_edu/_layouts/15/Doc.aspx?sourcedoc=%7B723F1824-6FAE-4C36-9880-8D2F5004C013%7D&file=Intel%20Unnati%20_%20Idea%20Submission%20PPT.pptx&action=edit&mobileredirect=true
+https://docs.google.com/presentation/d/1E0SVlbnPuNOBBa2iZsYEsP9FNI6_A8iI/edit?usp=sharing&ouid=104593993575231786636&rtpof=true&sd=true
